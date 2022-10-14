@@ -1,0 +1,27 @@
+app.js -> english router (/en) -> AuthPage (/auth) ->
+
+UserAccount (/acnt) -> change accountName (/acntnamechange)
+
+Switch and Router returns whatever matches what is on the
+url
+
+authentication process
+
+first time logging in using google
+outcome: 
+
+onAuthStateChange =>
+1.0 log in with google successfully
+2.0 save to react state globally
+3.0 pass the user uid to a function getUserData
+and query the 'users' collection for the right uid,
+if the user does exist return docSnap.data()
+or not, return false
+
+if result === false, which means the user does not exist
+and is loggin in the first time, then go onto create/add
+a document in the 'user's collection in firestore.
+
+and if i do this, the document fileds have the right 
+
+

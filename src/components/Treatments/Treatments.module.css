@@ -1,0 +1,13 @@
+.treatments {
+    width: 85%;
+    margin-bottom: 20px;
+    /* border: red solid 3px; */
+
+}
+
+.treatments ul {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}

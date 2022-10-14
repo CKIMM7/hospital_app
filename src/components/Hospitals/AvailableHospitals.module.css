@@ -1,0 +1,27 @@
+.hospital {
+    width: 95%;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+  

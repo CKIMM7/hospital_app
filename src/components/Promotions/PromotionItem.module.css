@@ -1,0 +1,24 @@
+.box {
+    transition: box-shadow .3s;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 2rem; 
+    padding: 1rem 1rem;
+    width:60%;
+    height: 150px;
+  
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    flex: 1 0 21%;
+    margin: 0.3rem;
+    
+  }
+
+  .box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+  .box a {
+    text-decoration: none;  
+  }

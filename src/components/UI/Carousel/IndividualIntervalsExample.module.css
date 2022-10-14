@@ -1,0 +1,36 @@
+.carousel {
+    width: 95%;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    background: #fff;
+}
+
+.carousel:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+.carousel img {
+    width: 100%;
+    height: 500px;
+    border-radius:10px;
+}
+
+.carousel h2 {
+    color: black;
+}
+
+.carousel h4 {
+    color: black;
+}
+
+.carousel h3 {
+    color: black;
+}
+
+.carouselCaption {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.7;
+}
